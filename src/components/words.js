@@ -29,7 +29,8 @@ const PROGRAMING_LANG = [
 ];
 
 function randomWord() {
-  return PROGRAMING_LANG[Math.floor(Math.random() * PROGRAMING_LANG.length)];
+  //return PROGRAMING_LANG[Math.floor(Math.random() * PROGRAMING_LANG.length)];
+  return PROGRAMING_LANG;
 }
 
 export { randomWord };
